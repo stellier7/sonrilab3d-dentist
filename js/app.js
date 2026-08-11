@@ -113,10 +113,8 @@
     renderHero();
     renderTrust();
     renderServices();
-    renderDentists();
     renderGallery();
     renderTestimonials();
-    renderInsurance();
     renderLocation();
     renderFooter();
     renderStickyBar();
@@ -158,10 +156,8 @@
 
     const items = [
       { href: "#services", key: "nav.services", section: "services" },
-      { href: "#dentists", key: "nav.dentists", section: "dentists" },
       { href: "#gallery", key: "nav.gallery", section: "gallery" },
       { href: "#testimonials", key: "nav.testimonials", section: "testimonials" },
-      { href: "#insurance", key: "nav.insurance", section: "insurance" },
       { href: "#location", key: "nav.location", section: "location" },
     ].filter((item) => isSectionVisible(item.section));
 
